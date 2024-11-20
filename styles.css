@@ -29,7 +29,34 @@ a {
     text-decoration: none;
 }
 
+.btn-primary {
+    background-color: var(--blue-color);
+    border-radius: 8px;
+    color: var(--light-color);
+    font-weight: bold;
+    padding: 12px;
+    transition-duration: 400ms;
+}
 
+.btn-primary:hover {
+    background-color: var(--light-color);
+    color: var(--blue-color);
+}
+
+.btn-secondary {
+    background-color: #3882F6;
+    color: var(--light-color);
+    font-weight: bold;
+    border: 1px solid var(--light-color);
+    border-radius: 8px;
+    padding: 12px;
+    transition-duration: 400ms;
+}
+
+.btn-secondary:hover {
+    background-color: var(--light-color);
+    color: var(--blue-color);
+}
 
 .container {
     max-width: 1280px;
@@ -79,10 +106,12 @@ a {
 }
 
 .hero-left {
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    justify-content: center;
+    gap: 12px;
 }
 
 .hero-main-text {
