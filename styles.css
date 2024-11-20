@@ -15,7 +15,45 @@
     font-family: 'Roboto';
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: var(--light-color);
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
