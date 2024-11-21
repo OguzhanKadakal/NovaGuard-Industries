@@ -131,6 +131,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 36px;
 }
 
 .cards-title {
@@ -209,4 +210,20 @@ a {
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 12px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    font-size: 24px;
+}
+
+footer > p > a {
+    color: var(--light-color);
+    font-weight: 900;
 }
