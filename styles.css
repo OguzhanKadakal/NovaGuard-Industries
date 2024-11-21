@@ -185,3 +185,28 @@ a {
     font-weight: bold;
     font-size: 24px;
 }
+
+/* CTA SECTION */
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-box {
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+    gap: 120px;
+    padding: 48px 96px;
+    margin: 64px;
+    border-radius: 8px;
+}
+
+.cta-box-left > h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
